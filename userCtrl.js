@@ -32,7 +32,7 @@ module.exports={
   },
   findUserByQuery:function(param,value){
     if(param === "email"){
-      return users.findOne('email',value)
+      return [users.findOne('email',value)]
     }
     return users.find(param.toLowerCase(),value)
   },

@@ -52,8 +52,8 @@ app.delete('/api/users/:userId', function(req,res){
 })
 
 //
-app.listen(port, function(){
-  console.log(`Listening on ${port}`)
-})
+// app.listen(port, function(){
+//   console.log(`Listening on ${port}`)
+// })
 
-// module.exports = app;
+module.exports = app;
